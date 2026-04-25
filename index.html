@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pluto helps people discover, track, buy, and sell the next big internet memes before they become obvious."
+    />
+    <title>Pluto | Buy & Sell the Next Big Online Memes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Pluto home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>Pluto</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#signals">Signals</a>
+        <a href="#market">Market</a>
+        <a href="#access">Access</a>
+      </nav>
+      <a class="header-action" href="#access">Request access</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Meme markets move at internet speed</p>
+          <h1 id="hero-title">Buy & sell the next big online memes.</h1>
+          <p class="hero-copy">
+            Pluto turns online momentum into a clean trading experience: discover what is
+            breaking out, see why people care, and move before the timeline catches up.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#access">Request access</a>
+            <a class="button button-secondary" href="#signals">See how it works</a>
+          </div>
+          <div class="trust-row" aria-label="Product highlights">
+            <span>Live meme signals</span>
+            <span>Watchlist alerts</span>
+            <span>Transparent fees</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Pluto product preview">
+          <img
+            src="assets/pluto-interface-preview.svg"
+            alt="Preview of Pluto showing trending memes, market signals, and a buy panel."
+          />
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Example meme market ticker">
+        <div><strong>$NPC</strong><span>+42%</span></div>
+        <div><strong>$LORE</strong><span>+18%</span></div>
+        <div><strong>$VIBE</strong><span>+31%</span></div>
+        <div><strong>$FROG</strong><span>+12%</span></div>
+        <div><strong>$BRAINROT</strong><span>+67%</span></div>
+      </section>
+
+      <section class="section signals" id="signals">
+        <div class="section-heading">
+          <p class="eyebrow">Why Pluto wins</p>
+          <h2>Less chart hypnosis. More internet context.</h2>
+          <p>
+            Competitors sell speed. Pluto sells understanding: the social proof, creator
+            activity, volume shifts, and narrative heat behind a meme before the trade.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-kicker">01</span>
+            <h3>Spot the breakout</h3>
+            <p>Follow memes as they move from niche jokes to timeline-wide moments with signal cards built for scanning.</p>
+          </article>
+          <article>
+            <span class="feature-kicker">02</span>
+            <h3>Know why it is moving</h3>
+            <p>See the posts, wallets, communities, and momentum shifts that explain the market instead of staring at candles alone.</p>
+          </article>
+          <article>
+            <span class="feature-kicker">03</span>
+            <h3>Act without friction</h3>
+            <p>Build a watchlist, request access, and prepare for simple buying and selling when Pluto opens to more users.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section market" id="market">
+        <div class="market-copy">
+          <p class="eyebrow">Built for the meme cycle</p>
+          <h2>The timeline is the terminal.</h2>
+          <p>
+            Memes are social assets before they are financial assets. Pluto is designed
+            around that reality: discovery first, context always, execution when the
+            moment is worth it.
+          </p>
+        </div>
+        <div class="market-panel" aria-label="Example Pluto signal feed">
+          <div class="panel-header">
+            <span>Live signals</span>
+            <strong>Now</strong>
+          </div>
+          <div class="signal-card hot">
+            <span>Breakout</span>
+            <strong>$BRAINROT</strong>
+            <p>Creator mentions accelerating across X and Telegram.</p>
+          </div>
+          <div class="signal-card">
+            <span>Whale watch</span>
+            <strong>$NPC</strong>
+            <p>Large holders adding while social volume rises.</p>
+          </div>
+          <div class="signal-card">
+            <span>Fresh lore</span>
+            <strong>$LORE</strong>
+            <p>New meme format spreading through reply chains.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section access" id="access">
+        <div>
+          <p class="eyebrow">Early access</p>
+          <h2>Get in before Pluto opens wider.</h2>
+          <p>
+            Join the access list for the next version of Pluto. The goal is simple:
+            make meme trading feel fast, social, legible, and safer to understand.
+          </p>
+        </div>
+        <form class="access-form" action="#" method="post">
+          <label for="email">Email</label>
+          <div class="form-row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+            <button type="submit">Request access</button>
+          </div>
+          <p>No promises, no spam. Just product updates and access invites.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Pluto</span>
+      <nav aria-label="Footer links">
+        <a href="AGENTS.md">Agent file</a>
+        <a href="docs/project-map.md">Project map</a>
+      </nav>
+    </footer>
+  </body>
+</html>

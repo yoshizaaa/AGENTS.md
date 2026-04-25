@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="860" viewBox="0 0 1100 860" role="img" aria-labelledby="title desc">
+  <title id="title">Pluto meme trading app preview</title>
+  <desc id="desc">A stylized Pluto interface with trending meme tokens, signal cards, and a buy panel.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171f1a"/>
+      <stop offset="100%" stop-color="#0b0d0c"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d7ff55"/>
+      <stop offset="52%" stop-color="#56f39a"/>
+      <stop offset="100%" stop-color="#7bd9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="34" stdDeviation="32" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="860" rx="42" fill="#101410"/>
+  <circle cx="916" cy="108" r="210" fill="#7bd9ff" opacity="0.16"/>
+  <circle cx="150" cy="620" r="230" fill="#56f39a" opacity="0.13"/>
+  <g filter="url(#shadow)">
+    <rect x="82" y="74" width="936" height="710" rx="34" fill="url(#shell)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="82" y="74" width="936" height="78" rx="34" fill="#202821"/>
+    <circle cx="132" cy="113" r="10" fill="#ff6b6b"/>
+    <circle cx="162" cy="113" r="10" fill="#ffca54"/>
+    <circle cx="192" cy="113" r="10" fill="#56f39a"/>
+    <rect x="246" y="100" width="150" height="27" rx="13.5" fill="#d7ff55"/>
+    <rect x="820" y="100" width="132" height="27" rx="13.5" fill="#303a34"/>
+
+    <rect x="118" y="188" width="276" height="548" rx="26" fill="#171b19" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="430" y="188" width="300" height="260" rx="26" fill="#171b19" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="764" y="188" width="218" height="548" rx="26" fill="#171b19" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="430" y="482" width="300" height="254" rx="26" fill="#171b19" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <text x="154" y="240" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Trending</text>
+    <g>
+      <rect x="154" y="274" width="204" height="82" rx="18" fill="#242d26"/>
+      <circle cx="194" cy="315" r="22" fill="#d7ff55"/>
+      <text x="184" y="324" fill="#111411" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">N</text>
+      <text x="232" y="307" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">$NPC</text>
+      <text x="232" y="333" fill="#56f39a" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">+42%</text>
+    </g>
+    <g>
+      <rect x="154" y="374" width="204" height="82" rx="18" fill="#242d26"/>
+      <circle cx="194" cy="415" r="22" fill="#ff6bb5"/>
+      <text x="184" y="424" fill="#111411" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">B</text>
+      <text x="232" y="407" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">$BRAINROT</text>
+      <text x="232" y="433" fill="#56f39a" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">+67%</text>
+    </g>
+    <g>
+      <rect x="154" y="474" width="204" height="82" rx="18" fill="#242d26"/>
+      <circle cx="194" cy="515" r="22" fill="#7bd9ff"/>
+      <text x="184" y="524" fill="#111411" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">L</text>
+      <text x="232" y="507" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">$LORE</text>
+      <text x="232" y="533" fill="#56f39a" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">+18%</text>
+    </g>
+    <rect x="154" y="604" width="204" height="74" rx="18" fill="url(#hot)"/>
+    <text x="186" y="650" fill="#101410" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Request access</text>
+
+    <text x="466" y="240" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Signal heat</text>
+    <path d="M474 380C512 310 552 336 582 284C614 230 674 258 700 222" fill="none" stroke="#56f39a" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="474" cy="380" r="13" fill="#d7ff55"/>
+    <circle cx="582" cy="284" r="13" fill="#d7ff55"/>
+    <circle cx="700" cy="222" r="13" fill="#d7ff55"/>
+    <rect x="466" y="386" width="220" height="20" rx="10" fill="#303a34"/>
+
+    <text x="466" y="535" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Why now</text>
+    <rect x="466" y="572" width="220" height="18" rx="9" fill="#39443d"/>
+    <rect x="466" y="614" width="184" height="18" rx="9" fill="#39443d"/>
+    <rect x="466" y="656" width="236" height="18" rx="9" fill="#39443d"/>
+
+    <text x="800" y="240" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Buy</text>
+    <rect x="800" y="278" width="146" height="54" rx="16" fill="#242d26"/>
+    <text x="826" y="313" fill="#f7f4ea" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">$BRAINROT</text>
+    <rect x="800" y="376" width="146" height="20" rx="10" fill="#39443d"/>
+    <rect x="800" y="426" width="146" height="20" rx="10" fill="#39443d"/>
+    <rect x="800" y="506" width="146" height="62" rx="18" fill="#f7f4ea"/>
+    <text x="848" y="545" fill="#101410" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Buy</text>
+    <rect x="800" y="612" width="146" height="72" rx="18" fill="#242d26"/>
+    <text x="826" y="644" fill="#b7b2a6" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Fees shown</text>
+    <text x="826" y="668" fill="#56f39a" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">before trade</text>
+  </g>
+</svg>

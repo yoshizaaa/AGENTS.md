@@ -1,8 +1,18 @@
 # Pluto Design Agent Host
 
-This repository is the home base for a Pluto Design Agent setup.
+This repository is the home base for a Pluto Design Agent setup and a starter Pluto landing page.
 
-It currently contains agent instructions and project conventions only. The actual app has not been scaffolded yet.
+It currently contains a static landing page plus agent instructions and project conventions. A full app has not been scaffolded yet.
+
+## Landing Page
+
+Open `index.html` in a browser to view the Pluto landing page. The page is positioned around Pluto as a consumer meme-market product: discovery, context, and request access.
+
+The page uses:
+
+- `index.html`
+- `styles.css`
+- `assets/pluto-interface-preview.svg`
 
 ## Project Map
 
@@ -25,7 +35,7 @@ Use `.env.example` as the starter template when an app is added.
 
 ## Local Development
 
-There is no local app command yet.
+There is no local app command yet. The landing page can be opened directly from the file system.
 
 Once an app scaffold exists, document the exact command here. Expected examples:
 
@@ -65,4 +75,3 @@ packages/
   db/
 docs/
 ```
-
