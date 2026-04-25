@@ -1,0 +1,19 @@
+# Editor swap files
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# OS files
+.DS_Store
+
